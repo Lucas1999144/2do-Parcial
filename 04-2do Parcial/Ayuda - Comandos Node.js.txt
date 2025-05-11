@@ -1,0 +1,14 @@
+OPCIONES DE LINEAS DE COMANDAS DE REPL
+
+·node --help => lista detallada de todas las opciones de la linea de comandos.
+
+·node -v =>ultima version descargada de node.js
+
+·node -e / --eval => ejecuta JS sin crear archivo aparte. Para fragmentos cortos de codigo, calculos o depurar logica simple.Ejemplo: node -e "Hola mundo" / node -e "let x=112 let a=234 console.log(x+a)
+
+·node -p / --print => calculos rapidos, depurar y probar expresiones sin archivo script. 
+ejemplo: node -p "112-321"
+
+·node -c /--check => comprobar sintaxis de JS sin ejecucion. Sirve para detectar errores antes de correrlo. 
+Si no hay errores no genera salida de nada. 
+Si hay errores, muestra el mensaje de error y indica la linea que hay error. 
